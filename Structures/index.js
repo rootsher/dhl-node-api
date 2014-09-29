@@ -1,0 +1,12 @@
+module.exports.Address = require('./Address').Address;
+module.exports.AuthData = require('./AuthData').AuthData;
+module.exports.ItemToPrint = require('./ItemToPrint').ItemToPrint;
+module.exports.ItemToPrintResponse = require('./ItemToPrintResponse').ItemToPrintResponse;
+module.exports.PaymentData = require('./PaymentData').PaymentData;
+module.exports.PieceDefinition = require('./PieceDefinition').PieceDefinition;
+module.exports.ReceiverAddress = require('./ReceiverAddress').ReceiverAddress;
+module.exports.ServiceDefinition = require('./ServiceDefinition').ServiceDefinition;
+module.exports.ShipmentBasicData = require('./ShipmentBasicData').ShipmentBasicData;
+module.exports.ShipmentEvent = require('./ShipmentEvent').ShipmentEvent;
+module.exports.ShipmentFullData = require('./ShipmentFullData').ShipmentFullData;
+module.exports.ShipmentOrderInfo = require('./ShipmentOrderInfo').ShipmentOrderInfo;

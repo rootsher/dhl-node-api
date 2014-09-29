@@ -1,0 +1,20 @@
+{
+    "name": "dhl-node-api",
+    "version": "0.1.0",
+    "author": "Konrad Kowalski <rootsher@gmail.com>",
+    "description": "API for DHL courier in Node.js.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rootsher/dhl-node-api.git"
+    },
+    "keywords": [
+        "api",
+        "dhl",
+        "soap",
+        "wrapper",
+        "promises"
+    ],
+    "dependencies": {
+    	"node-soap-wrapper": "git+https://github.com/rootsher/node-soap-wrapper.git"
+    }
+}
