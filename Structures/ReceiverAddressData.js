@@ -10,8 +10,11 @@
  * @param {string} street Ulica.
  * @param {string} houseNumber Numer domu.
  * @param {string} apartmentNumber Numer mieszkania.
+ * @param {string} contactPerson Imię i nazwisko osoby kontaktowej.
+ * @param {string} contactPhone Kontaktowy numer telefonu.
+ * @param {string} contactEmail Kontaktowy adres email.
  */
-function ReceiverAddress(country, isPackstation, isPostfiliale, postnummer, name, postalCode, city, street, houseNumber, apartmentNumber) {
+function ReceiverAddressData(country, isPackstation, isPostfiliale, postnummer, name, postalCode, city, street, houseNumber, apartmentNumber, contactPerson, contactPhone, contactEmail) {
 	this.country = country;
 	this.isPackstation = isPackstation;
 	this.isPostfiliale = isPostfiliale;
@@ -22,7 +25,10 @@ function ReceiverAddress(country, isPackstation, isPostfiliale, postnummer, name
 	this.street = street;
 	this.houseNumber = houseNumber;
 	this.apartmentNumber = apartmentNumber;
+	this.contactPerson = contactPerson;
+	this.contactPhone = contactPhone;
+	this.contactEmail = contactEmail;
 }
 
 
-module.exports.ReceiverAddress = ReceiverAddress;
+module.exports.ReceiverAddressData = ReceiverAddressData;
