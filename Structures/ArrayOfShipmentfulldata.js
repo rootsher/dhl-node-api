@@ -3,7 +3,7 @@
  * @param {ShipmentFullData[]} item
  */
 function ArrayOfShipmentfulldata(item) {
-	this.item = item;
+    this.item = item;
 }
 
 

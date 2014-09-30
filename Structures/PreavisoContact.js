@@ -5,9 +5,9 @@
  * @param {string} emailAddress
  */
 function PreavisoContact(personName, phoneNumber, emailAddress) {
-	this.personName = personName;
-	this.phoneNumber = phoneNumber;
-	this.emailAddress = emailAddress;
+    this.personName = personName;
+    this.phoneNumber = phoneNumber;
+    this.emailAddress = emailAddress;
 }
 
 

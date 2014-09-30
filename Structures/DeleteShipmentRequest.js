@@ -4,8 +4,8 @@
  * @param {string} dispatchIdentificationNumber
  */
 function DeleteShipmentRequest(shipmentIdentificationNumber, dispatchIdentificationNumber) {
-	this.shipmentIdentificationNumber = shipmentIdentificationNumber;
-	this.dispatchIdentificationNumber = dispatchIdentificationNumber;
+    this.shipmentIdentificationNumber = shipmentIdentificationNumber;
+    this.dispatchIdentificationNumber = dispatchIdentificationNumber;
 }
 
 

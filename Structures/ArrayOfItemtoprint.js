@@ -3,7 +3,7 @@
  * @param {ItemToPrint[]} item
  */
 function ArrayOfItemtoprint(item) {
-	this.item = item;
+    this.item = item;
 }
 
 

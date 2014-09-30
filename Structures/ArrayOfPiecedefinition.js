@@ -3,7 +3,7 @@
  * @param {PieceDefinition[]} item
  */
 function ArrayOfPiecedefinition(item) {
-	this.item = item;
+    this.item = item;
 }
 
 

@@ -10,14 +10,14 @@
  * @param {string} contactEmail
  */
 function NeighbourAddress(name, postalCode, city, street, houseNumber, apartmentNumber, contactPhone, contactEmail) {
-	this.name = name;
-	this.postalCode = postalCode;
-	this.city = city;
-	this.street = street;
-	this.houseNumber = houseNumber;
-	this.apartmentNumber = apartmentNumber;
-	this.contactPhone = contactPhone;
-	this.contactEmail = contactEmail;
+    this.name = name;
+    this.postalCode = postalCode;
+    this.city = city;
+    this.street = street;
+    this.houseNumber = houseNumber;
+    this.apartmentNumber = apartmentNumber;
+    this.contactPhone = contactPhone;
+    this.contactEmail = contactEmail;
 }
 
 

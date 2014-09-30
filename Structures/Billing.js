@@ -6,10 +6,10 @@
  * @param {string} costsCenter
  */
 function Billing(shippingPaymentType, billingAccountNumber, paymentType, costsCenter) {
-	this.shippingPaymentType = shippingPaymentType;
-	this.billingAccountNumber = billingAccountNumber;
-	this.paymentType = paymentType;
-	this.costsCenter = costsCenter;
+    this.shippingPaymentType = shippingPaymentType;
+    this.billingAccountNumber = billingAccountNumber;
+    this.paymentType = paymentType;
+    this.costsCenter = costsCenter;
 }
 
 

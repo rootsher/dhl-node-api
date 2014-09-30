@@ -12,16 +12,16 @@
  * @param {string} apartmentNumber Numer mieszkania.
  */
 function ReceiverAddress(country, isPackstation, isPostfiliale, postnummer, name, postalCode, city, street, houseNumber, apartmentNumber) {
-	this.country = country;
-	this.isPackstation = isPackstation;
-	this.isPostfiliale = isPostfiliale;
-	this.postnummer = postnummer;
-	this.name = name;
-	this.postalCode = postalCode;
-	this.city = city;
-	this.street = street;
-	this.houseNumber = houseNumber;
-	this.apartmentNumber = apartmentNumber;
+    this.country = country;
+    this.isPackstation = isPackstation;
+    this.isPostfiliale = isPostfiliale;
+    this.postnummer = postnummer;
+    this.name = name;
+    this.postalCode = postalCode;
+    this.city = city;
+    this.street = street;
+    this.houseNumber = houseNumber;
+    this.apartmentNumber = apartmentNumber;
 }
 
 

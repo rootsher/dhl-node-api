@@ -6,10 +6,10 @@
  * @param {string} costsCenter Pole MPK na liście przewozowym.
  */
 function PaymentData(paymentMethod, payerType, accountNumber, costsCenter) {
-	this.paymentMethod = paymentMethod;
-	this.payerType = payerType;
-	this.accountNumber = accountNumber;
-	this.costsCenter = costsCenter;
+    this.paymentMethod = paymentMethod;
+    this.payerType = payerType;
+    this.accountNumber = accountNumber;
+    this.costsCenter = costsCenter;
 }
 
 

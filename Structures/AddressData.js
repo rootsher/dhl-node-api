@@ -11,15 +11,15 @@
  * @param {string} contactEmail Kontaktowy adres email.
  */
 function AddressData(name, postalCode, city, street, houseNumber, apartmentNumber, contactPerson, contactPhone, contactEmail) {
-	this.name = name;
-	this.postalCode = postalCode;
-	this.city = city;
-	this.street = street;
-	this.houseNumber = houseNumber;
-	this.apartmentNumber = apartmentNumber;
-	this.contactPerson = contactPerson;
-	this.contactPhone = contactPhone;
-	this.contactEmail = contactEmail;
+    this.name = name;
+    this.postalCode = postalCode;
+    this.city = city;
+    this.street = street;
+    this.houseNumber = houseNumber;
+    this.apartmentNumber = apartmentNumber;
+    this.contactPerson = contactPerson;
+    this.contactPhone = contactPhone;
+    this.contactEmail = contactEmail;
 }
 
 

@@ -7,11 +7,11 @@
  * @param {number} heaviestPieceWeight Waga najcięższej paczki.
  */
 function ShipmentOrderInfo(shipper, numberOfExPieces, numberOfDrPieces, totalWeight, heaviestPieceWeight) {
-	this.shipper = shipper;
-	this.numberOfExPieces = numberOfExPieces;
-	this.numberOfDrPieces = numberOfDrPieces;
-	this.totalWeight = totalWeight;
-	this.heaviestPieceWeight = heaviestPieceWeight;
+    this.shipper = shipper;
+    this.numberOfExPieces = numberOfExPieces;
+    this.numberOfDrPieces = numberOfDrPieces;
+    this.totalWeight = totalWeight;
+    this.heaviestPieceWeight = heaviestPieceWeight;
 }
 
 

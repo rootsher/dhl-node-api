@@ -8,12 +8,12 @@
  * @param {ArrayOfPackage} pieceList
  */
 function CreateShipmentRequest(shipmentInfo, content, comment, reference, ship, pieceList) {
-	this.shipmentInfo = shipmentInfo;
-	this.content = content;
-	this.comment = comment;
-	this.reference = reference;
-	this.ship = ship;
-	this.pieceList = pieceList;
+    this.shipmentInfo = shipmentInfo;
+    this.content = content;
+    this.comment = comment;
+    this.reference = reference;
+    this.ship = ship;
+    this.pieceList = pieceList;
 }
 
 

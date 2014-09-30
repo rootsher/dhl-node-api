@@ -4,8 +4,8 @@
  * @param {string} shipmentId Numer przesyłki, dla której chcemy pobrać etykietę.
  */
 function ItemToPrint(labelType, shipmentId) {
-	this.labelType = labelType;
-	this.shipmentId = shipmentId;
+    this.labelType = labelType;
+    this.shipmentId = shipmentId;
 }
 
 

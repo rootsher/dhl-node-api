@@ -11,15 +11,15 @@
  * @param {boolean} euroReturn Czy palety euro do zwrotu (można wybrać tylko przy type = "PALLET").
  */
 function PieceDefinition(type, width, height, length, weight, quantity, nonStandard, blpPieceId, euroReturn) {
-	this.type = type;
-	this.width = width;
-	this.height = height;
-	this.length = length;
-	this.weight = weight;
-	this.quantity = quantity;
-	this.nonStandard = nonStandard;
-	this.blpPieceId = blpPieceId;
-	this.euroReturn = euroReturn;
+    this.type = type;
+    this.width = width;
+    this.height = height;
+    this.length = length;
+    this.weight = weight;
+    this.quantity = quantity;
+    this.nonStandard = nonStandard;
+    this.blpPieceId = blpPieceId;
+    this.euroReturn = euroReturn;
 }
 
 

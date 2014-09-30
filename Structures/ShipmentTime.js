@@ -5,9 +5,9 @@
  * @param {string} shipmentEndHour
  */
 function ShipmentTime(shipmentDate, shipmentStartHour, shipmentEndHour) {
-	this.shipmentDate = shipmentDate;
-	this.shipmentStartHour = shipmentStartHour;
-	this.shipmentEndHour = shipmentEndHour;
+    this.shipmentDate = shipmentDate;
+    this.shipmentStartHour = shipmentStartHour;
+    this.shipmentEndHour = shipmentEndHour;
 }
 
 

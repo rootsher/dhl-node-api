@@ -3,7 +3,7 @@
  * @param {string[]} item
  */
 function ArrayOfString(item) {
-	this.item = item;
+    this.item = item;
 }
 
 

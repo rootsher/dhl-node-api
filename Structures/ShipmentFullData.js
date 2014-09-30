@@ -16,20 +16,20 @@
  * @param {string} orderStatus Tylko odpowiedź. Informacja czy do tej przesyłki jest zamówiony kurier.
  */
 function ShipmentFullData(shipper, receiver, neighbour, pieceList, payment, service, shipmentDate, skipRestrictionCheck, comment, content, reference, shipmentId, created, orderStatus) {
-	this.shipper = shipper;
-	this.receiver = receiver;
-	this.neighbour = neighbour;
-	this.pieceList = pieceList;
-	this.payment = payment;
-	this.service = service;
-	this.shipmentDate = shipmentDate;
-	this.skipRestrictionCheck = skipRestrictionCheck;
-	this.comment = comment;
-	this.content = content;
-	this.reference = reference;
-	this.shipmentId = shipmentId;
-	this.created = created;
-	this.orderStatus = orderStatus;
+    this.shipper = shipper;
+    this.receiver = receiver;
+    this.neighbour = neighbour;
+    this.pieceList = pieceList;
+    this.payment = payment;
+    this.service = service;
+    this.shipmentDate = shipmentDate;
+    this.skipRestrictionCheck = skipRestrictionCheck;
+    this.comment = comment;
+    this.content = content;
+    this.reference = reference;
+    this.shipmentId = shipmentId;
+    this.created = created;
+    this.orderStatus = orderStatus;
 }
 
 

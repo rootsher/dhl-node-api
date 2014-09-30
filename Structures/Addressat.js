@@ -5,9 +5,9 @@
  * @param {Address} address
  */
 function Addressat(preaviso, contact, address) {
-	this.preaviso = preaviso;
-	this.contact = contact;
-	this.address = address;
+    this.preaviso = preaviso;
+    this.contact = contact;
+    this.address = address;
 }
 
 

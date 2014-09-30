@@ -6,10 +6,10 @@
  * @param {string} collectOnDeliveryForm
  */
 function Service(serviceType, serviceValue, textInstruction, collectOnDeliveryForm) {
-	this.serviceType = serviceType;
-	this.serviceValue = serviceValue;
-	this.textInstruction = textInstruction;
-	this.collectOnDeliveryForm = collectOnDeliveryForm;
+    this.serviceType = serviceType;
+    this.serviceValue = serviceValue;
+    this.textInstruction = textInstruction;
+    this.collectOnDeliveryForm = collectOnDeliveryForm;
 }
 
 
