@@ -5,7 +5,7 @@ var WSDL_URL = 'http://sandbox.dhl24.com.pl/webapi';
 var WSDL_OPTIONS = {};
 
 new DHLNodeAPI().createClient(WSDL_URL, WSDL_OPTIONS).done(function (api) {
-    api.setAuthData('username', 'username');
+    api.setAuthData('username', 'password');
 
     api.createShipments([
         new Structures.ArrayOfShipmentfulldata([
