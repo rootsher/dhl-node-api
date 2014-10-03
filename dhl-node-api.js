@@ -180,8 +180,9 @@ DHLNodeAPI.prototype.getLabels = function getLabels(itemsToPrint) {
  * @param {PnpRequest} pnpRequest
  */
 DHLNodeAPI.prototype.getPnp = function getPnp(pnpRequest) {
+    pnpRequest.authData = this._authData;
+
     return this._client.getPnp({
-        authData: this._authData,
         pnpRequest: pnpRequest
     });
 };
