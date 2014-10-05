@@ -4,7 +4,7 @@
  * @param {string} type Dla jakich przesyłek raport ma być wygenerowany, dostępne wartości słownikowe: EX - krajowe ekspresowe do 31,5kg, DR - krajowe drobnicowe, ALL - wszystkie krajowe przesyłki, 2EUROPE - przesyłki eksportowe
  */
 function PnpRequest(date, type) {
-	this.authData = undefined;
+    this.authData = undefined;
     this.date = date;
     this.type = type;
 }
